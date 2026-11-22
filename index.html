@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Главная
+title: Home
 ---
 
 <style>
-    /* Дополнительные стили для блоков главной страницы */
+    /* Additional styles for homepage sections */
     .dept-section { padding: 48px 0; border-bottom: 1px solid var(--border-color); }
     .dept-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 24px; }
     .dept-card { background: var(--bg-secondary); border: 1px solid var(--border-color); padding: 22px; border-radius: 4px; transition: transform 0.2s, border-color 0.2s; display: flex; flex-direction: column; justify-content: space-between; cursor: pointer; }
@@ -19,7 +19,7 @@ title: Главная
     .tab-btn { background: transparent; border: 1px solid var(--border-color); padding: 6px 14px; border-radius: 20px; font-size: 13px; cursor: pointer; color: var(--text-muted); font-family: var(--font-sans); transition: all 0.2s; }
     .tab-btn.active, .tab-btn:hover { background: var(--text-main); color: #FFFFFF; border-color: var(--text-main); }
 
-    /* Темный блок Глоссария */
+    /* Dark Lexicon Banner */
     .glossary-banner { background-color: var(--bg-accent); color: #FFFFFF; padding: 48px 40px; border-radius: 4px; margin: 56px 0; display: grid; grid-template-columns: 1fr 1.8fr; gap: 40px; align-items: center; }
     .glossary-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: #A1A1AA; margin-bottom: 8px; }
     .glossary-term { font-family: var(--font-serif); font-size: 38px; line-height: 1.1; margin-bottom: 8px; }
@@ -27,7 +27,7 @@ title: Главная
     .glossary-desc { font-size: 15px; color: #D4D4D8; margin-bottom: 20px; line-height: 1.6; }
     .glossary-link { color: #FFFFFF; font-size: 14px; font-weight: 500; border-bottom: 1px solid var(--accent-red); padding-bottom: 2px; }
 
-    /* Блок Манифеста */
+    /* Manifesto Box */
     .manifesto-box { max-width: 740px; margin: 56px auto 24px; text-align: center; padding: 40px 24px; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 4px; }
     .manifesto-box h2 { font-family: var(--font-serif); font-size: 34px; margin: 10px 0 16px; line-height: 1.2; }
     .manifesto-box p { font-size: 16px; color: var(--text-muted); margin-bottom: 28px; }
@@ -43,63 +43,63 @@ title: Главная
     }
 </style>
 
-<!-- 1. ПЕРВЫЙ ЭКРАН (HERO) -->
+<!-- 1. HERO SECTION -->
 <section class="hero">
-    <a href="/research/" class="post-meta">Академические исследования фольклорных и современных визуальных образов →</a>
-    <h1>Расшифровываем визуальные коды, мифологию и скрытые смыслы японской анимации</h1>
+    <a href="/research/" class="post-meta">Academic research in cultural heritage, semiotics, and comparative mythology →</a>
+    <h1>Decoding Visual Codes, Mythology, and Cultural Heritage Across Traditions</h1>
     <p style="color: var(--text-muted); max-width: 680px; font-size: 17px;">
-        Исследования на стыке семиотики, религиоведения и культурологии. Разбираем графический язык кадров, корни фольклора и эволюцию архетипов.
+        Interdisciplinary studies at the intersection of semiotics, religious studies, and cultural anthropology. Tracing symbolic systems from South Asian epic traditions to contemporary Japanese visual culture.
     </p>
 </section>
 
-<!-- 2. ПРОЕКТЫ ИНСТИТУТА -->
+<!-- 2. RESEARCH TRACKS & LABS -->
 <section class="dept-section" id="departments">
-    <h2 style="font-family: var(--font-serif); font-size: 32px;">Проекты института</h2>
+    <h2 style="font-family: var(--font-serif); font-size: 32px;">Research Tracks & Labs</h2>
     <div class="dept-grid">
-        <a href="#articles" class="dept-card" onclick="filterPosts('Кафедра визуальных кодов')">
+        <a href="/research/" class="dept-card">
             <div>
                 <div class="dept-num">I</div>
-                <h3>Проект визуальных кодов</h3>
-                <p>Символика цвета, графические знаки эмоций (манпу), композиция кадра и язык тела.</p>
+                <h3>Cross-Cultural & Indian Heritage</h3>
+                <p>South Asian mythology, sacred aesthetics, religious symbolism, and transcultural dialogues.</p>
             </div>
-            <span class="dept-link">Смотреть работы →</span>
+            <span class="dept-link">Explore publications →</span>
         </a>
-        <a href="#articles" class="dept-card" onclick="filterPosts('Лаборатория фольклора и мифа')">
+        <a href="#articles" class="dept-card" onclick="filterPosts('Visual Semiotics')">
             <div>
                 <div class="dept-num">II</div>
-                <h3>Проект фольклора и мифа</h3>
-                <p>Синтоистские ритуалы, буддийские мотивы, демонология ёкаев и городские легенды.</p>
+                <h3>Visual Semiotics (ISOF Lab)</h3>
+                <p>Color symbolism, graphic emotion markers, frame composition, and visual language in anime.</p>
             </div>
-            <span class="dept-link">Смотреть работы →</span>
+            <span class="dept-link">View studies →</span>
         </a>
-        <a href="#articles" class="dept-card" onclick="filterPosts('Архив архетипов')">
+        <a href="#articles" class="dept-card" onclick="filterPosts('Comparative Mythology')">
             <div>
                 <div class="dept-num">III</div>
-                <h3>Архив архетипов</h3>
-                <p>Эволюция сюжетных тропов, мономиф в исэкае и типология персонажей.</p>
+                <h3>Comparative Mythology</h3>
+                <p>Evolution of narrative tropes, rites of passage, sacred boundaries, and character archetypes.</p>
             </div>
-            <span class="dept-link">Смотреть работы →</span>
+            <span class="dept-link">View studies →</span>
         </a>
         <a href="/glossary/" class="dept-card">
             <div>
                 <div class="dept-num">IV</div>
-                <h3>Глоссарий ИСОФ</h3>
-                <p>Академический словарь японских эстетических и культурологических терминов.</p>
+                <h3>ISIH Lexicon</h3>
+                <p>Academic glossary of Indian and Japanese aesthetic, philosophical, and semiotic concepts.</p>
             </div>
-            <span class="dept-link">К словарю →</span>
+            <span class="dept-link">Open lexicon →</span>
         </a>
     </div>
 </section>
 
-<!-- 3. ЛЕНТА ИССЛЕДОВАНИЙ С ФИЛЬТРОМ -->
+<!-- 3. RECENT STUDIES WITH FILTER -->
 <section id="articles">
     <div class="filter-header">
-        <h2 style="font-family: var(--font-serif); font-size: 32px;">Свежие исследования</h2>
+        <h2 style="font-family: var(--font-serif); font-size: 32px;">Recent Studies</h2>
         <div class="filter-tabs">
-            <button class="tab-btn active" data-filter="all" onclick="filterPosts('all')">Все материалы</button>
-            <button class="tab-btn" data-filter="Кафедра визуальных кодов" onclick="filterPosts('Кафедра визуальных кодов')">Визуальные коды</button>
-            <button class="tab-btn" data-filter="Лаборатория фольклора и мифа" onclick="filterPosts('Лаборатория фольклора и мифа')">Фольклор</button>
-            <button class="tab-btn" data-filter="Архив архетипов" onclick="filterPosts('Архив архетипов')">Архетипы</button>
+            <button class="tab-btn active" data-filter="all" onclick="filterPosts('all')">All Materials</button>
+            <button class="tab-btn" data-filter="Visual Semiotics" onclick="filterPosts('Visual Semiotics')">Visual Semiotics</button>
+            <button class="tab-btn" data-filter="Cross-Cultural & Indian Heritage" onclick="filterPosts('Cross-Cultural & Indian Heritage')">Indian Heritage</button>
+            <button class="tab-btn" data-filter="Comparative Mythology" onclick="filterPosts('Comparative Mythology')">Mythology & Archetypes</button>
         </div>
     </div>
 
@@ -110,7 +110,7 @@ title: Главная
                 <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
             {% endif %}
             <div class="article-body">
-                <span class="post-meta">{{ post.category | replace: 'Кафедра визуальных кодов', 'Проект визуальных кодов' | replace: 'Лаборатория фольклора и мифа', 'Проект фольклора и мифа' }}</span>
+                <span class="post-meta">{{ post.category }}</span>
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 <p class="article-excerpt">{{ post.excerpt }}</p>
                 <div class="article-tags">{{ post.tags | join: " • " }}</div>
@@ -120,38 +120,27 @@ title: Главная
     </div>
 </section>
 
-<!-- 4. ТЕРМИН ДНЯ ИЗ ГЛОССАРИЯ -->
+<!-- 4. TERM OF THE DAY -->
 <section class="glossary-banner" id="glossary">
     <div>
-        <div class="glossary-label">Словарь ИСОФ • Термин дня</div>
-        <div class="glossary-term">Моно-но аварэ</div>
-        <div class="glossary-kanji">物の哀れ — «печальное очарование вещей»</div>
+        <div class="glossary-label">ISIH Lexicon • Term of the Day</div>
+        <div class="glossary-term">Rasa</div>
+        <div class="glossary-kanji">रस — «aesthetic essence or emotional flavor»</div>
     </div>
     <div>
         <p class="glossary-desc">
-            Эстетический принцип японской культуры, обозначающий светлую грусть от осознания быстротечности и хрупкости всего прекрасного в мире. В аниме этот мотив чаще всего передается через кадры опадающих лепестков сакуры, уходящих поездов или последних дней летних каникул.
+            A foundational concept in classical Indian aesthetics (Natya Shastra) denoting the emotional atmosphere evoked in the audience through dramatic, poetic, or visual sign systems. It bridges ancient ritual performance with contemporary cross-cultural visual storytelling.
         </p>
-        <a href="/glossary/" class="glossary-link">Открыть глоссарий →</a>
+        <a href="/glossary/" class="glossary-link">Explore the lexicon →</a>
     </div>
 </section>
 
-<!-- 5. МАНИФЕСТ ИНСТИТУТА -->
+<!-- 5. INSTITUTE MANIFESTO -->
 <section class="manifesto-box" id="about">
-    <span class="post-meta">Манифест проекта</span>
-    <h2>Аниме как сложная знаковая система</h2>
+    <span class="post-meta">Institute Manifesto</span>
+    <h2>Cultural Heritage as a Living Sign System</h2>
     <p>
-        Институт семиотики образов и фольклора (ISOF) создан для тех, кто смотрит глубже поверхности кадра. Мы объединяем методы культурологии, религиоведения и визуальной антропологии, чтобы расшифровывать скрытые коды современной японской анимации.
+        The International Semiotics Institute for Heritage (ISIH) brings together scholars examining mythology, sacred aesthetics, and visual culture across traditions. Working alongside our Russian-language visual culture division (<a href="https://isof.ru" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">ISOF</a>), we decode how ancient archetypes shape modern media.
     </p>
-    <a href="#articles" class="btn-dark" onclick="filterPosts('all')">Перейти к архиву исследований</a>
+    <a href="/research/" class="btn-dark">Browse Academic Publications</a>
 </section>
-
-<script>
-    function filterPosts(category) {
-        document.querySelectorAll('.article-card').forEach(function (card) {
-            card.style.display = (category === 'all' || card.dataset.category === category) ? '' : 'none';
-        });
-        document.querySelectorAll('.tab-btn').forEach(function (btn) {
-            btn.classList.toggle('active', btn.dataset.filter === category);
-        });
-    }
-</script>
