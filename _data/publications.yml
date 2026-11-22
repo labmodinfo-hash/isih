@@ -1,10 +1,99 @@
-publications:
+  - year: 2026
+    category: Japanese Visual Semiotics
+    title: "Analysis of Communicative Models of Subjectivity in Popular Culture [in Russian]"
+    authors: "Rubtcova M.V."
+    source: "Russian Linguistic Bulletin, 2026, No. 6 (78) (in Russian)"
+    doi: "10.60797/RULB.2026.78.19"
+    abstract: "Contemporary communication studies are faced with the need to study the complex philosophical and psychological concepts of subjectivity and identity conveyed by popular culture. Japanese animation (anime) serves as a unique media text of contemporary popular culture, in which Eastern and Western intellectual traditions engage in dialogue. Drawing on C.G. Jung's analytical psychology and Hayao Kawai's Buddhist-Jungian synthesis, this study identifies three communicative models of subjectivity in Naoki Urasawa's anime series 'Monster': the 'karmic dyad', the 'split subject' (negative 'empty self'), and the 'dialogical response'."
+    pdf: "/assets/pdf/rubtsova-2026-communicative-models.pdf"
+    cite: "Rubtcova, M. V. (2026). Analysis of Communicative Models of Subjectivity in Popular Culture. Russian Linguistic Bulletin, (6/78). https://doi.org/10.60797/RULB.2026.78.19 [in Russian]"
+
+  - year: 2026
+    category: Comparative Mythology
+    title: "Transformation of Christian Eschatology and Demonology in Japanese Mass Culture [in Russian]"
+    authors: "Rubtsova A.V."
+    source: "Culture and Civilization (Kul'tura i tsivilizatsiya), 2026, Vol. 16, No. 3A, pp. 97–104 (in Russian)"
+    doi: "10.34670/AR.2026.53.81.010"
+    abstract: "The article examines the reception of Christian religious symbols, eschatological concepts, and demonology in contemporary Japanese mass culture (manga and anime). Based on works such as 'Evangelion,' 'Berserk,' 'Vinland Saga,' and 'The Summer Hikaru Died,' a philosophical and religious studies analysis of cultural adaptation and syncretism is carried out using J.B. Thomas's concept of 'Vernacular Religion' and H. Azuma's 'Database' model, proposing a fourfold typology of religious representation."
+    pdf: "/assets/pdf/rubtsova-2026-christian-eschatology.pdf"
+    cite: "Rubtsova, A. V. (2026). Transformation of Christian Eschatology and Demonology in Japanese Mass Culture. Culture and Civilization, 16(3A), 97–104. https://doi.org/10.34670/AR.2026.53.81.010 [in Russian]"
+
+  - year: 2026
+    category: Japanese Visual Semiotics
+    title: "The Evolution of Ecocriticism: From Ecopoetics to Econarratology [in Russian]"
+    authors: "Rubtsova A.V., Rubtsova M.V."
+    source: "Philological Sciences Bulletin (Vestnik filologicheskikh nauk), 2026, Vol. 6, No. 4, pp. 123–128 (in Russian)"
+    doi: "10.62257/2782-5329-2026-4-123-128"
+    abstract: "The article analyzes the evolution of ecocriticism from ecopoetics to econarratology using the example of the anime series 'Dungeon Meshi' (Delicious in Dungeon, 2024), where the underground biosphere acts as a narrative engine through food chains, monster hierarchies, and environmental determinism. Econarratology is defined as a methodological approach studying how the artistic environment operates as an actant possessing narrative agency."
+    pdf: "/assets/pdf/rubtsova-2026-econarratology.pdf"
+    cite: "Rubtsova, A. V., & Rubtsova, M. V. (2026). The Evolution of Ecocriticism: From Ecopoetics to Econarratology. Philological Sciences Bulletin, 6(4), 123–128. https://doi.org/10.62257/2782-5329-2026-4-123-128 [in Russian]"
+
+  - year: 2026
+    category: Comparative Mythology
+    title: "The Archetypal Nature of Ethnicity: C.G. Jung's Hypothetical Response to the Dichotomy of Primordialism and Constructivism [in Russian]"
+    authors: "Rubtsova A.V., Rubtsova M.V."
+    source: "Academic Collection / Proceedings, 2026, pp. 342–345 (in Russian)"
+    doi: ""
+    abstract: "This article examines the methodological opposition between primordialism and constructivism in modern ethnology and social anthropology through the lens of C.G. Jung's analytical psychology. It is concluded that ethnicity in the Jungian paradigm is a symbolic system rooted in the collective unconscious (archetypal aspect) yet actualized through cultural consciousness and social context (constructivist aspect), proposing the 'psychic reality of ethnicity' as a third way."
+    pdf: "/assets/pdf/rubtsova-2026-archetypal-ethnicity.pdf"
+    cite: "Rubtsova, A. V., & Rubtsova, M. V. (2026). The Archetypal Nature of Ethnicity: C.G. Jung's Hypothetical Response to the Dichotomy of Primordialism and Constructivism, pp. 342–345. [in Russian]"
+
+  - year: 2026
+    category: Media & Communications
+    title: "Cultural Specifics of Japanese Information Behavior [in Russian]"
+    authors: "Rubtsova A.V., Pavenkov V.G."
+    source: "Academic Proceedings / Journal, 2026, pp. 703–706 (in Russian)"
+    doi: ""
+    abstract: "The article analyzes cultural specifics of Japanese information behavior through attitudes toward cyberspace and information-seeking practices. Based on comparative studies, it identifies a distinct configuration of Japanese cyberculture—preference for anonymity, separation of online and offline networks, localized interpersonal trust, and controlled emotional distance—challenging universalist technodeterminist models."
+    pdf: "/assets/pdf/rubtsova-2026-japanese-information-behavior.pdf"
+    cite: "Rubtsova, A. V., & Pavenkov, V. G. (2026). Cultural Specifics of Japanese Information Behavior, pp. 703–706. [in Russian]"
+
   - year: 2025
     category: Indian & Cross-Cultural Studies
-    title: "Your Cross-Cultural Research Paper Title Here"
-    authors: "Author Name"
-    source: "Journal Name, 2025, Vol. 1, pp. 10–25"
+    title: "Intercultural Communication and Marketing Strategies in the Localization of the Mobile Video Game PUBG [in Russian]"
+    authors: "Rubtcova M.V., Rubtcova A.V."
+    source: "Media Communication Technologies and Project Management in Creative Industries: Proceedings of the International Conference, St. Petersburg: SPbGIKiT, 2025, pp. 207–210 (in Russian)"
     doi: ""
-    abstract: "Paste your English abstract here. This publication explores cross-cultural semiotic codes and heritage narratives."
-    pdf: ""
-    cite: "Author Name (2025). Your Cross-Cultural Research Paper Title Here. Journal Name."
+    abstract: "The article examines features of intercultural communication and marketing strategies in the localization of the mobile video game PlayerUnknown's Battlegrounds (PUBG). Comparing global, Chinese ('Game for Peace'), and Indian ('Battlegrounds Mobile India') adaptations, the authors highlight the necessity of studying cultural values, political contexts, and ethical interpretations prior to entering regional markets."
+    pdf: "/assets/pdf/rubtsova-2025-pubg-localization.pdf"
+    cite: "Rubtcova, M. V., & Rubtcova, A. V. (2025). Intercultural Communication and Marketing Strategies in the Localization of the Mobile Video Game PUBG. In Media Communication Technologies and Project Management in Creative Industries (pp. 207–210). SPbGIKiT. [in Russian]"
+
+  - year: 2024
+    category: Media & Communications
+    title: "Development of Modern Technologies in Media Communication: Causes and Consequences [in Russian]"
+    authors: "Rubtsova M.V."
+    source: "Modern Media Communications in the Context of Digitalization (Monograph Chapter 1.3), St. Petersburg: SPbGIKiT, 2024, pp. 46–56 (in Russian)"
+    doi: ""
+    abstract: "Drawing on Pierre Bourdieu's sociology of symbolic capital and visual culture, this chapter explores the philosophical foundations of expanding contemporary video and media culture, the impact of new digital technologies on identity formation, and the technical, organizational, and ethical challenges of integrating generative AI into media production and communication education."
+    pdf: "/assets/pdf/rubtsova-2024-media-technologies-chapter.pdf"
+    cite: "Rubtsova, M. V. (2024). Development of Modern Technologies in Media Communication: Causes and Consequences. In Modern Media Communications in the Context of Digitalization (pp. 46–56). SPbGIKiT. [in Russian]"
+
+  - year: 2023
+    category: Theory & Methodology
+    title: "Multimodal Research of Musical Discourse: Development Perspectives [in Russian]"
+    authors: "Rubtsova A.V., Rubtsova M.V."
+    source: "Academic Journal / Proceedings, 2023, pp. 181–183 (in Russian)"
+    doi: ""
+    abstract: "The article examines the prospects for conducting multimodal studies of musical works based on the social semiotics of G. Kress and T. van Leeuwen and the conceptual metaphor theory of G. Lakoff and M. Johnson. It concludes that multimodal methodology in musicology lags behind visual image analysis and highlights the cultural specificity of architectural metaphors in music."
+    pdf: "/assets/pdf/rubtsova-2023-multimodal-music-discourse.pdf"
+    cite: "Rubtsova, A. V., & Rubtsova, M. V. (2023). Multimodal Research of Musical Discourse: Development Perspectives, pp. 181–183. [in Russian]"
+
+  - year: 2022
+    category: Media & Communications
+    title: "The Musical Leitmotif 'Ezio's Family' in the Assassin's Creed Computer Game Series [in Russian]"
+    authors: "Rubtcova A.V., Pavenkov O.V., Rubtcova M.V."
+    source: "Academic Journal / Proceedings, 2022, pp. 114–117 (in Russian)"
+    doi: ""
+    abstract: "The article deals with the transformation of the musical leitmotif 'Ezio's Family' in the Assassin's Creed video game series. Becoming a hallmark of the franchise, the theme has been reworked by various composers to synthesize authentic historical instruments with modern electronic textures, demonstrating the need for deeper study of musical expression within ludomusicology."
+    pdf: "/assets/pdf/rubtsova-2022-ezio-family-leitmotif.pdf"
+    cite: "Rubtcova, A. V., Pavenkov, O. V., & Rubtcova, M. V. (2022). The Musical Leitmotif 'Ezio's Family' in the Assassin's Creed Computer Game Series, pp. 114–117. [in Russian]"
+
+  - year: 2019
+    category: Theory & Methodology
+    title: "Apology of the Useless Subject: Following Foucault [in Russian]"
+    authors: "Gashkov S.A., Rubtsova M.V."
+    source: "Philosophical Thought (Filosofskaya mysl'), 2019, No. 4, pp. 11–23 (in Russian)"
+    doi: "10.25136/2409-8728.2019.4.29443"
+    abstract: "The article examines the foundations of Michel Foucault's project of social criticism, focusing on the duality of the modern subject as both a bearer of 'technologies of truth' and a subject of spiritual 'care of the self.' Tracing the shift from disciplinary power to biopolitics and governmentality, the authors argue that economic and social 'uselessness' enables critical reflection on modernity."
+    pdf: "/assets/pdf/rubtsova-2019-foucault-subject.pdf"
+    cite: "Gashkov, S. A., & Rubtsova, M. V. (2019). Apology of the Useless Subject: Following Foucault. Philosophical Thought, (4), 11–23. https://doi.org/10.25136/2409-8728.2019.4.29443 [in Russian]"
