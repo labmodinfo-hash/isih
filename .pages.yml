@@ -4,73 +4,121 @@ media:
 
 content:
   - name: posts
-    label: Исследования (Статьи)
+    label: Research Articles
     type: collection
     path: _posts
     filename: "{year}-{month}-{day}-{primary}.md"
     fields:
       - name: layout
-        label: Шаблон
+        label: Layout
         type: string
         default: post
         hidden: true
       - name: title
-        label: Заголовок статьи
+        label: Article Title
         type: string
         required: true
       - name: date
-        label: Дата публикации
+        label: Publication Date
         type: date
         required: true
       - name: category
-        label: Кафедра
+        label: Department
         type: select
         options:
           values:
-            - Кафедра визуальных кодов
-            - Лаборатория фольклора и мифа
-            - Архив архетипов
+            - Visual Semiotics
+            - Cross-Cultural & Indian Heritage
+            - Comparative Mythology
       - name: image
-        label: Обложка статьи
+        label: Cover Image
         type: image
       - name: excerpt
-        label: Короткий анонс (лид)
+        label: Short Excerpt (Lead)
         type: text
       - name: tags
-        label: Теги (через Enter)
+        label: Tags (press Enter)
         type: string
         list: true
       - name: body
-        label: Текст исследования
+        label: Article Text
         type: rich-text
 
   - name: glossary
-    label: Глоссарий терминов
+    label: Lexicon / Glossary
     type: file
     path: _data/glossary.yml
     fields:
       - name: glossary
-        label: Список терминов
+        label: List of Terms
         type: object
         list: true
         fields:
           - name: title
-            label: Термин (на русском)
+            label: Term (in English)
             type: string
             required: true
           - name: japanese
-            label: Оригинал и перевод
+            label: Original Script & Translation
             type: string
           - name: category
-            label: Категория термина
+            label: Term Category
             type: select
             options:
               values:
-                - Эстетика и философия
-                - Визуальные коды (Манпу)
-                - Фольклор и мифология
-                - Архетипы и тропы
+                - Aesthetics & Philosophy
+                - Visual Codes
+                - Folklore & Mythology
+                - Archetypes & Tropes
           - name: description
-            label: Научное определение и примеры
+            label: Academic Definition & Examples
             type: text
             required: true
+
+  - name: publications
+    label: Academic Publications
+    type: file
+    path: _data/publications.yml
+    fields:
+      - name: publications
+        label: Publications List (add new on top)
+        type: object
+        list: true
+        fields:
+          - name: year
+            label: Year
+            type: number
+            required: true
+          - name: category
+            label: Research Track
+            type: select
+            options:
+              values:
+                - Indian & Cross-Cultural Studies
+                - Japanese Visual Semiotics
+                - Comparative Mythology
+                - Theory & Methodology
+                - Media & Communications
+          - name: title
+            label: Paper Title
+            type: string
+            required: true
+          - name: authors
+            label: Authors (e.g., Rubtsova M.V.)
+            type: string
+            required: true
+          - name: source
+            label: Journal, Year, Issue, Pages
+            type: string
+          - name: doi
+            label: DOI (without https://doi.org)
+            type: string
+          - name: abstract
+            label: Short Abstract
+            type: text
+          - name: pdf
+            label: PDF Path (e.g., /assets/pdf/filename.pdf)
+            type: string
+          - name: cite
+            label: Citation string for "Cite" button
+            type: text
