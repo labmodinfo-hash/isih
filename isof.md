@@ -28,7 +28,7 @@ excerpt: "ISOF (Institute of Semiotics of Images and Folklore) — the Russian-l
 
         <div style="margin-top: 32px; display: flex; flex-wrap: wrap; gap: 14px;">
             <a href="https://isof.ru" target="_blank" rel="noopener" class="btn-dark">Open Russian-Language Portal (ISOF.RU) ↗</a>
-            <a href="/research/" class="share-btn">Read English Studies on ISIH →</a>
+            <a href="/publications/" class="share-btn">Read English Studies on ISIH →</a>
         </div>
     </div>
 </div>
